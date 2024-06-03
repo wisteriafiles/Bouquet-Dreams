@@ -66,7 +66,7 @@ header .container .row .navbar h1.logo:hover span {
 }
 
 section.home {
-    background: url(./section1banner.jpeg);
+    background: url(./assets/section1banner.jpeg);
     height: 700px;
     margin-top: 170px;
     display: flex;
@@ -504,7 +504,7 @@ section.section6 {
     color: grey;
 }
 
-.section6 .col-sm-6:nth-child(1) form button.links {
+.section6 .col-sm-6:nth-child(1) .submitButton {
     background: #000000;
     color: #ffffff;
     font-family: 'Poppins';
@@ -528,7 +528,7 @@ section.section6 {
     object-fit: contain;
 }
 
-.section6 .col-sm-6:nth-child(1) form button.links:hover {
+.section6 .col-sm-6:nth-child(1) form .submitButton:hover {
     background: #e15a7f;
     transition: 0.5s ease-out;
     border: none;
@@ -989,7 +989,7 @@ section.section4 .container .row:nth-child(1) h1 span {
         height: 110px;
     }
 
-    .section6 .col-sm-6:nth-child(1) form button.links {
+    .section6 .col-sm-6:nth-child(1) form .submitButton {
         font-size: 15px;
     }
 
